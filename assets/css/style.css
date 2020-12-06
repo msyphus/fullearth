@@ -1,11 +1,6 @@
-body {
-    background-image: radial-gradient(#ffffff, #e6e6e6);
-}
-
 header {
     position: sticky;
     top: 0;
-    background-image: radial-gradient(#ffffff, #e6e6e6);
 }
 
 .barTop, .barMiddle, .barBottom {
@@ -81,9 +76,7 @@ header {
 }
 
 .logo {
-    display: inline-block;
-    float: left;
-    height: 90px;
+    height: 200px;
 }
 
 .title {
@@ -102,9 +95,12 @@ h2 {
     font-family: 'Sarabun', sans-serif;
     font-size: 4.5vh;
     font-style: italic;
+    font-weight: bold;
+    color: blue;
+    text-shadow: 2px 2px 5px lightskyblue;
     text-align: center;
     padding-bottom: 1%;
-    margin-top: 1%;
+    margin-top: 0;
 }
 
 h3 {
