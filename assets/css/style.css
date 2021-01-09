@@ -1,3 +1,9 @@
+body {
+    /* background-image: linear-gradient(to right, rgba(67,89,255,.7), rgba(67,89,255,0)); */
+    background-image: url("https://cdn.pixabay.com/photo/2014/08/26/15/17/vineyard-428041_1280.jpg");
+    background-size: cover;
+}
+
 header {
     position: sticky;
     top: 0;
@@ -119,44 +125,12 @@ h4 {
     padding-bottom: 2%;
 }
 
-.nightSwitch {
-    float: right;
-    margin-right: 1%;
-    justify-content: center;
-}
-
-#mode {
-    font-family: 'Sarabun', sans-serif;
-}
-
-.modeSwitch {
-    width: 50px;
-    height: 25px;
-    border-radius: 20px;
-    padding: 2px;
-    margin: 0 auto;
-    background-color: #cccccc;
-}
-
-.modeButton {
-    height: 95%;
-    width: 50%;
-    border-radius: 50%;
-    background-color: white;
-    transition: 0.3s;
-}
-
-.switchBg {
-    background-color: #4359FF;
-}
-
-.btnMove {
-    transform: translateX(23px); 
-}
-
 p {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 1.4em;
+    font-weight: bolder;
+    color: #cccccc;
+    text-shadow: 5px 5px 10px black;
     margin-bottom: 1.5%;
 }
 
@@ -173,13 +147,10 @@ b {
     width: 80%;
     height: auto;
     overflow: auto;
-    background-image: linear-gradient(to right, rgba(67,89,255,.7), rgba(67,89,255,0));
+    /* background-image: linear-gradient(to right, rgba(67,89,255,.7), rgba(67,89,255,0)); */
+    background-color: rgba(67,89,255,.5);
     margin: 1% auto 2%;
     padding: 2% 1%;
-    border-width: 3px;
-    border-style: groove;
-    border-image: linear-gradient(to right, rgba(143,156,255,.7), rgba(143,156,255,0) 50%) 1;
-    border-right: none;   
 }
 
 .containerReverse {
@@ -257,10 +228,8 @@ b {
 }
 
 .textDiv {
-    float: right;
-    width: 57%;
     height: 100%;
-    padding-top: 5%;
+    padding: 5%;
 }
 
 .resizedTextDiv {
@@ -280,6 +249,9 @@ b {
 .initiative {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 1.4em;
+    font-weight: bolder;
+    color: #cccccc;
+    text-shadow: 5px 5px 10px black;
     list-style-type: disc;
     margin-left: 4%;
     margin-bottom: 1.5%;
@@ -303,7 +275,7 @@ b {
     font-family: 'Sarabun', sans-serif;
     font-size: 1rem;
     font-weight: bold;
-    color: white;
+    color: #cccccc;
     background-image: linear-gradient(to top right, #212C80, #8F9CFF);
     border: 2px groove #8F9CFF;
     border-radius: 20px;
@@ -327,10 +299,12 @@ footer {
     position: sticky;
     bottom: 0;
     height: 10vh;
-    background-color: #4359FF;
+    background-color: rgba(67,89,255,.5);
     padding: .75% 1% 1%;
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 600;
+    color: #cccccc;
+    text-shadow: 5px 5px 10px black;
 }
 
 footer i {
