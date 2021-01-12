@@ -1,5 +1,4 @@
 body {
-    /* background-image: linear-gradient(to right, rgba(67,89,255,.7), rgba(67,89,255,0)); */
     background-image: url("https://cdn.pixabay.com/photo/2014/08/26/15/17/vineyard-428041_1280.jpg");
     background-size: cover;
 }
@@ -81,6 +80,18 @@ header {
     background-color: #4359FF;
 }
 
+.iconDiv a:link {
+    color: #bbbbbb;
+}
+
+.emailIcon {
+    float: right;
+    font-size: 2.5em;
+    margin: 0 4% 0 0;
+    color: #bbbbbb;
+    cursor: pointer;
+}
+
 .logo {
     height: 200px;
 }
@@ -146,8 +157,6 @@ b {
 .container {
     width: 80%;
     height: auto;
-    overflow: auto;
-    /* background-image: linear-gradient(to right, rgba(67,89,255,.7), rgba(67,89,255,0)); */
     background-color: rgba(67,89,255,.5);
     margin: 1% auto 2%;
     padding: 2% 1%;
@@ -296,15 +305,14 @@ b {
 }
 
 footer {
-    position: sticky;
+    position: relative;
     bottom: 0;
     height: 10vh;
-    background-color: rgba(67,89,255,.5);
-    padding: .75% 1% 1%;
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 600;
     color: #cccccc;
     text-shadow: 5px 5px 10px black;
+    text-align: center;
 }
 
 footer i {
@@ -316,20 +324,7 @@ p em {
     text-decoration: underline;
 }
 
-.iconDiv {
-    text-align: center;
-}
 
-.iconDiv a:link {
-    color: #bbbbbb;
-}
-
-.emailIcon {
-    font-size: 2.5em;
-    margin: 0 4% 0 0;
-    color: #bbbbbb;
-    cursor: pointer;
-}
 
 .contactIcon {
     font-size: 2.5em;
