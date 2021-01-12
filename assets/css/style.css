@@ -162,97 +162,9 @@ b {
     padding: 2% 1%;
 }
 
-.containerReverse {
-    width: 80%;
-    height: auto;
-    overflow: auto;
-    background-image: linear-gradient(to left, rgba(67,89,255,.7), rgba(67,89,255,0));
-    margin: 1% auto 2%;
-    padding: 2% 1%;
-    border-width: 3px;
-    border-style: groove;
-    border-image: linear-gradient(to left, rgba(143,156,255,.7), rgba(143,156,255,0) 50%) 1;
-    border-left: none;   
-}
-
-.imgDiv {
-    width: 40%;
-    height: 360px;
-    margin-right: 3%;
-    float: left;
-}
-
-.imgDivReverse {
-    width: 40%;
-    height: 360px;
-    margin-left: 3%;
-    float: right;
-}
-
-.resizedImgDiv {
-    width: 30%;
-    height: 360px;
-    margin-right: 3%;
-    float: left;
-}
-
-.imgDivShort {
-    width: 40%;
-    height: 250px;
-    margin-right: 3%;
-    float: left;
-}
-
-.imgDivReverseShort {
-    width: 40%;
-    height: 250px;
-    margin-left: 3%;
-    float: right;
-}
-
-.contentImg {
-    width: 100%;
-    height: 100%;
-    margin-right: 3%;
-    border: 2px groove #8F9CFF; 
-    border-radius: 5px;
-}
-
-.aboutImg {
-    width: 40%;
-    height: 360px;
-    margin: 0 3% 1% 0;
-    float: left;
-}
-
-.contentImgReverse {
-    width: 100%;
-    height: 100%;
-    border: 2px groove #8F9CFF; 
-    border-radius: 5px;
-}
-
-.volunteerImg {
-    width: 40%;
-}
-
 .textDiv {
     height: 100%;
     padding: 5%;
-}
-
-.resizedTextDiv {
-    float: right;
-    width: 65%;
-    height: 100%;
-    padding-top: 5%;
-}
-
-.textDivReverse {
-    float: left;
-    width: 57%;
-    height: 100%;
-    padding-top: 5%;
 }
 
 .initiative {
@@ -264,13 +176,6 @@ b {
     list-style-type: disc;
     margin-left: 4%;
     margin-bottom: 1.5%;
-}
-
-.restyleList {
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size: 1.4em;
-    list-style-type: disc;
-    margin: 0 0 1.5% 4%;
 }
 
 .buttonDiv {
@@ -285,19 +190,6 @@ b {
     font-size: 1rem;
     font-weight: bold;
     color: #cccccc;
-    background-image: linear-gradient(to top right, #212C80, #8F9CFF);
-    border: 2px groove #8F9CFF;
-    border-radius: 20px;
-    cursor: pointer;
-}
-
-.regButtonFood {
-    margin: 1% auto;
-    padding: .5% 1.5%;
-    font-family: 'Sarabun', sans-serif;
-    font-size: 1rem;
-    font-weight: bold;
-    color: white;
     background-image: linear-gradient(to top right, #212C80, #8F9CFF);
     border: 2px groove #8F9CFF;
     border-radius: 20px;
@@ -319,53 +211,30 @@ footer i {
     font-style: italic;
 }
 
-p em {
-    font-style: italic;
-    text-decoration: underline;
-}
-
-
-
-.contactIcon {
-    font-size: 2.5em;
-    color: #bbbbbb;
-    margin: 0 4%;
-    cursor: pointer;
-}
-
-.contactIcon[value] {
-    opacity: 30%;
-}
-
-.popup {
-    width: 40px;
-    height: 40px;
-    font-size: .5rem;
-    font-family: 'Source Sans Pro', sans-serif;
-    display: inline-block;
-    position: absolute;
-    padding-top: 8px;
-    visibility: hidden;
-}
-
-.donate {
-    margin: 0 0 0 4%;
-    padding: .5% 1.5%;
-    position: relative;
-    top: -5px;
-    font-family: 'Sarabun', sans-serif;
-    font-size: 1rem;
-    font-weight: bold;
-    color: white;
-    background-image: linear-gradient(to top right, #212C80, #8F9CFF);
-    border: 2px groove #8F9CFF;
-    border-radius: 20px;
-}
-
 .copyrightInfo {
     display: block;
     margin: auto;
     text-align: center;
+}
+
+@media only screen and (max-width: 972px) {
+    .title {
+        width: 100%;
+    }
+
+    .title h2 {
+        font-size: 4vh;
+        padding: 0 2% 6%;
+    }
+
+    .textDiv {
+        margin: 0;
+        padding: 0;
+    }
+
+    .emailIcon {
+        margin: 0 1% 0 0;
+    }
 }
 
 @media only screen and (max-width: 1088px) {
@@ -391,142 +260,5 @@ p em {
 
     .title h2 {
         font-size: 4vh;
-    }
-}
-
-@media only screen and (max-width: 1000px) {
-    .title h1 {
-        font-size: 5vh;
-        padding-top: 1%;
-    }
-
-    .title h2 {
-        font-size: 3.5vh;
-    }
-
-    .headerAdj {
-        margin-top: 5%;
-        padding-bottom: 3%;
-    }
-    
-    .container, .containerReverse {
-        height: auto;
-        padding-bottom: 2%;
-    }
-
-    .container h3, .container p, .container ul {
-        padding-left: 3%;
-    }
-
-    .imgDiv, .aboutImg, .imgDivReverse, .imgDivShort {
-        width: 95%;
-        margin: 0 auto;
-        float: none;
-        display: block;
-    }
-
-    .resizedImgDiv, .imgDivReverseShort {
-        width: 50%;
-        margin: 0 auto;
-        float: none;
-        display: block;
-    }
-
-    .contentImg {
-        margin: 0;
-    }
-
-    .textDiv, .textDivReverse, .textDivFood, .resizedTextDiv {
-        float: none;
-        display: block;
-        margin-left: 3%;
-        width: 95%;
-    }
-    
-    .initiative {
-        margin-left: 6%;
-        margin-bottom: 4%;
-    }
-
-    .restyleList {
-        margin: 4% 0 4% 4%;
-    }
-
-    .regButtonFood, .regButton {
-        margin: 4% auto 0%;
-    }
-
-    .adjTitle {
-        font-family: 'Sarabun', sans-serif;
-        font-size: 1.7em;
-        font-style: italic;
-        font-weight: bold;
-        padding-bottom: 2%;
-        margin-top: 4%;
-    }
-}
-
-@media only screen and (max-width: 972px) {
-    .title h1 {
-        font-size: 4.5vh;
-    }
-
-    .title h2 {
-        font-size: 3vh;
-    }
-}
-
-@media only screen and (max-width: 840px) {
-    .title h1 {
-        font-size: 4vh;
-        padding-top: 2%;
-    }
-
-    .title h2 {
-        font-size: 2.5vh;
-    }
-
-    p {
-        margin-bottom: 4%;
-    }
-}
-
-@media only screen and (max-width: 700px) {
-    #menuIcon {
-        width: 30px;
-        height: 70px;
-    }
-
-    .title h1 {
-        font-size: 3.5vh;
-        padding-top: 3%;
-    }
-
-    .title h2 {
-        font-size: 2vh;
-    }
-
-}
-
-@media only screen and (max-width: 600px) {
-    .title h1 {
-        font-size: 4vh;
-        padding-top: 0;
-    }
-
-    .title h2 {
-        font-size: 2vh;
-    }
-
-    .emailIcon {
-        margin: 0 2.5% 0 0;
-    }
-    
-    .contactIcon {
-        margin: 0 2.5%;
-    }
-    
-    .donate {
-        margin: 0 0 0 2.5%;
     }
 }
