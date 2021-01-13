@@ -3,7 +3,7 @@ var menuMinimized = true;
 $("#menuIcon").on("click", function () {
     if (menuMinimized === true) {
         $("#menuIcon").css("margin-left", "110px");
-        $("#sideNav").css("width", "100px");
+        $("#sideNav").css("width", "110px");
         $(".barMiddle").hide();
         $(".barTop").css({ "transform": "rotate(45deg)", "top": "10px" });
         $(".barBottom").css({ "transform": "rotate(-45deg)", "top": "10px" });
