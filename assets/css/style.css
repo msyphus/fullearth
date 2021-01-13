@@ -72,7 +72,7 @@ header {
     text-decoration: none;
     display: block;
     transition: 0.3s;
-    background-color: rgba(67,89,255, .5);
+    background-color: rgba(67, 89, 255, .5);
 }
 
 .sideBar a:hover {
@@ -151,7 +151,8 @@ p {
 }
 
 p a:link, p a:visited {
-    color: #996118;
+    font-weight: bolder;
+    color: #8F9CFF;
 }
 
 b {
@@ -189,7 +190,7 @@ b {
 }
 
 .regButton {
-    margin: 4% auto;
+    margin: 4% 2%;
     padding: .5% 1.5%;
     font-family: 'Sarabun', sans-serif;
     font-size: 1rem;
