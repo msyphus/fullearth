@@ -173,6 +173,11 @@ b {
     padding: 5%;
 }
 
+.profileTextDiv {
+    height: 100%;
+    padding: 0 2%;
+}
+
 .initiative {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 1.4em;
@@ -202,8 +207,20 @@ b {
     cursor: pointer;
 }
 
-.profileImg {
+.imgBox {
     width: 25%;
+    float: left;
+    margin-right: 15px;
+}
+
+.profileImg {
+    width: 100%
+}
+
+.caption {
+    color: #cccccc;
+    text-shadow: 5px 5px 10px black;
+    padding: 0;
 }
 
 footer {
