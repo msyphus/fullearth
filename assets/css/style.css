@@ -223,6 +223,33 @@ b {
     padding: 0;
 }
 
+.cardRow {
+    text-align: center;
+}
+
+.card {
+    width: 290px;
+    height: 430px;
+    display: inline-block;
+}
+
+.bg-custom {
+    background-color: #8F9CFF;
+}
+
+.card-title {
+    font-size: 1.4rem;
+    font-weight: bolder;
+    color: #cccccc;
+    text-shadow: 0px 0px 1px black;
+}
+
+.card-text {
+    font-size: 1rem;
+    color: #cccccc;
+    text-shadow: 0px 0px 1px black;
+}
+
 footer {
     position: relative;
     bottom: 0;
