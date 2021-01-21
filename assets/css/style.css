@@ -108,7 +108,14 @@ header {
 
 h1 {
     font-family: 'Sarabun', sans-serif;
-    font-size: 6vh;
+    font-size: 4.5vh;
+    font-weight: bold;
+    color: #cccccc;
+    text-shadow: 5px 5px 10px black;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 0;
+
 }
 
 h2 {
