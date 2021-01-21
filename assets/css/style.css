@@ -1,6 +1,8 @@
 body {
     background-image: url("https://cdn.pixabay.com/photo/2014/08/26/15/17/vineyard-428041_1280.jpg");
     background-size: cover;
+    background-attachment: fixed;
+    
 }
 
 header {
