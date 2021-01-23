@@ -1,8 +1,9 @@
 body {
-    background-image: url("https://cdn.pixabay.com/photo/2014/08/26/15/17/vineyard-428041_1280.jpg");
-    background-size: cover;
+    background-image: url("../images/transparentLogo.svg");
     background-attachment: fixed;
-    
+    background-position: center;
+    background-size: 65%;
+    background-repeat: no-repeat;
 }
 
 header {
@@ -198,6 +199,27 @@ b {
     margin-bottom: 1.5%;
 }
 
+.homeContainer {
+    height: 100vh;
+}
+
+.topRow {
+    clear: both;
+    text-align: center;
+    padding-top: 13%;
+}
+
+.bottomRow {
+    text-align: center;
+}
+
+.tile {
+    display: inline-block;
+    width: 20%;
+    border: 3px #cccccc solid;
+    text-align: center;
+}
+
 .buttonDiv {
     width: 100%;
     text-align: center;
@@ -260,14 +282,14 @@ b {
 }
 
 footer {
-    position: relative;
+    position: fixed;
     bottom: 0;
+    right: 10px;
     height: 10vh;
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 600;
     color: #cccccc;
     text-shadow: 5px 5px 10px black;
-    text-align: center;
 }
 
 footer i {
