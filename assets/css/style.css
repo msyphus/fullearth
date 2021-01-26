@@ -206,7 +206,7 @@ b {
 .topRow {
     clear: both;
     text-align: center;
-    padding-top: 13%;
+    padding-top: 8%;
 }
 
 .bottomRow {
@@ -215,9 +215,18 @@ b {
 
 .tile {
     display: inline-block;
-    width: 20%;
+    margin: -1px -5px;
+    width: 200px;
+    height: 200px;
     border: 3px #cccccc solid;
     text-align: center;
+}
+
+.basket {
+    background-image: url("../images/veggies.jpg");
+    background-size: cover;
+    position: absolute;
+
 }
 
 .buttonDiv {
